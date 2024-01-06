@@ -1,3 +1,5 @@
+
+
 header{
     text-align:right;
     background-color: green;
@@ -15,21 +17,41 @@ h2{
 }
 
 img{
-    display: flex;
-    max-width: 50%;
-    max-height: 50%;
-    flex-direction: column;
-    margin-left: 25%;
-
+    max-width: 100%;
 }
 
 .image{
+    max-width: 50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 5%
+    filter:brightness(50%);
+
+}
+
+.image:hover{
+    filter:brightness(100%);
+    transition-delay: 200ms;
+    
+}
+
+.image-1{
+    max-width: 75%;
+    margin-left: 13%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    filter:brightness(50%);
+}
+
+.image-1:hover{
+    filter:brightness(100%);
+    transition-delay: 200ms;
 }
 
 section{
     margin-bottom: 10%;
     text-align: center;
 }
+
